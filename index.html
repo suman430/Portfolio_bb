@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brijesh Bhardwaj - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 50px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .about img {
+      width: 200px;
+      border-radius: 10px;
+      margin-right: 40px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .about-text h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    section h3 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #003366;
+    }
+
+    .section-box {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      animation: slideUp 1s ease-in-out;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .skills span {
+      background: #003366;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
+    }
+
+    footer {
+      background: #003366;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact i {
+      margin-right: 10px;
+      color: #fff;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .about {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about img {
+        margin: 0 auto 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Brijesh Bhardwaj</h1>
+    <p>Kanpur, Uttar Pradesh | brijeshbhardwaj938@example.com | +91 8580677615</p>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <img src="WhatsApp Image 2025-08-03 at 12.02.01_33fb7911.jpg" alt="Profile Picture">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>To work with a reputed organization where I can apply my skills and contribute to its success, while
+          continuously enhancing my professional growth and capabilities.</p>
+      </div>
+    </section>
+
+    <section class="section-box">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>MBA</strong>, Allenhouse Institute of Management (2024), Lucknow</li>
+        <li><strong>B.Com</strong>, C.S.J.M University (2021), Kanpur</li>
+        <li><strong>Intermediate (Commerce)</strong>, Govt. Sr. Secondary School (2018), Shimla</li>
+      </ul>
+    </section>
+
+    <section class="section-box">
+      <h3>Experience</h3>
+      <ul>
+        <li><strong>Executive – MAO</strong>, NIF Pvt Ltd, Kanpur (May 2024 - Present)</li>
+        <li><strong>Back Office Executive</strong>, Ingen Technology, Kanpur (Jul 2023 - Apr 2024)</li>
+        <li><strong>Intern</strong>, Kanpur Logistic Park Pvt Ltd (Sep 2022 - Oct 2022)</li>
+      </ul>
+    </section>
+
+    <section class="section-box">
+      <h3>Technical Skills</h3>
+      <div class="skills">
+        <span>Bizom</span>
+        <span>SAP (Sales & Distribution)</span>
+        <span>SAP (Order & Dispatch)</span>
+        <span>Digital Marketing</span>
+      </div>
+    </section>
+
+    <section class="section-box">
+      <h3>Other Skills</h3>
+      <div class="skills">
+        <span>MS Word</span>
+        <span>MS Excel</span>
+        <span>PowerPoint</span>
+        <span>Visio</span>
+        <span>Advanced Excel</span>
+        <span>Tally & Accounting</span>
+      </div>
+    </section>
+
+    <section class="section-box">
+      <h3>Strengths</h3>
+      <ul>
+        <li>Strong Organizational Skills</li>
+        <li>Technologically Proficient</li>
+        <li>Hard Working and Active</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <div class="contact">
+      <p><i class="fas fa-envelope"></i> brijeshbhardwaj938@example.com</p>
+      <p><i class="fas fa-phone"></i> +91 8580677615</p>
+      <p><i class="fas fa-map-marker-alt"></i> Kanpur, Uttar Pradesh</p>
+    </div>
+  </footer>
+</body>
+
+</html>
